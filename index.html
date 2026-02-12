@@ -24,7 +24,7 @@
       <h2>Sobre Mim</h2>
       <img
         src="https://inspi.com.br/wp-content/uploads/2024/07/Fotografa-vence-concurso-de-Inteligencia-Artificial-com-foto-real-da-natureza.jpg"
-        alt="Foto de uma fotografa" title="Imagem de Perfil"
+        alt="Foto de um fotógrafo" title="Imagem de Perfil"
         <article>
           <p>
             Olá! Meu nome é Elienay, sou um desenvolvedor de software apaixonado por tecnologia e inovação. Tenho experiência em desenvolvimento web, mobile e inteligência artificial. Adoro aprender novas linguagens de programação e estou sempre em busca de desafios que me permitam crescer profissionalmente.  
@@ -45,19 +45,76 @@
       <article>
         <h3>Projeto 1: "Natureza em Foco"</h3>
         <p>
-          Este projeto é uma série de fotografias que capturam a beleza da natureza em diferentes ambientes. Desde paisagens deslumbrantes até detalhes minuciosos, cada imagem busca transmitir a serenidade e a grandiosidade do mundo natural.
+          Este foi o primeiro projeto desenvolvido estudando front-end.
         </p>
       </article>
       </section>
+
+      <section id="habilidades">
+        <h2>Habilidades e Tecnologias</h2>
+        <table> 
+          <thead>
+            <tr>
+              <th>Tecnologia</th>
+              <th>Nível</th>
+              <th> Descrição</th>
+            </tr>
+          </thead>
+      <tbody>
+        <tr>
+          <td>HTML</td>
+          <td>Avançado</td>
+          <td>Criação de estruturas de páginas web</td>
+        </tr>
+        <tr>
+          <td>CSS</td>
+          <td>Intermediário</td>
+          <td>Estilização e layout de páginas web</td>
+        </tr>
+        <tr>
+          <td>JavaScript</td>
+          <td>Básico</td>
+          <td>Interatividade em páginas web</td>
+        </tr>
+      </tbody>
+      </table>
+      </section>
+
       <footer>
         <p>© 2024 Elienay. Todos os direitos reservados.</p>
         <section id="contato">
           <h2>Contato</h2>
-          <p>Se você deseja entrar em contato comigo para projetos ou colaborações, sinta-se à vontade para me enviar um e-mail para <a href="mailto:elienay@fotografia.com">elienay@fotografia.com</a></p> 
-          <address>
-            <p>Endereço: Rua das Flores, 123 - São Paulo/SP</p>
-          </address>
-        </section>
+          <p>Tem um projeto em mente? Entre em contato.</p>
+          <form action="">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required />
+            <br />
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+            <br />
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" />
+            <br />
+
+            <label for="assunto">Assunto:</label>
+            <select name="assunto" id="assunto" required>
+              <option value="">Selecione um assunto</option>
+              <option value="orcamento">Orçamento</option>
+              <option value="duvidas">Dúvidas</option>
+              <option value="outros">Outros</option>
+              <br />
+            </select>
+            <br />
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea name="mensagem" id="mensagem" cols="20" required></textarea> <br />
+
+            <input type="checkbox" id="inscricao" name="inscricao"/> 
+            <label for="inscricao">Deseja receber minha newsletter? Fique por dentro.</label> <br />
+
+            <input type="submit" value="Enviar mensagem">
+          </form>
+      </section>
 
        </footer>
       </body>
